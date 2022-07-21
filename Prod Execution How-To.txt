@@ -1,0 +1,7 @@
+----------------------------------------------------
+          ACCOUNT STRUCTURE UPDATE STEPS
+----------------------------------------------------
+
+(1)	Load Ally_Accts_DeleteRel.xml
+(2)	Rename 166 accounts by adding _old suffix
+(3) 	Load Ally_Accts_CreateInPlanning.xml

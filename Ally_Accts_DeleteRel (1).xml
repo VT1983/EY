@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OneStreamXF version="6.8.1.13230">
+    <metadataRoot>
+      <dimensions>
+            <dimension type="Account" name="DetailActAccounts" description="" accessGroup="Everyone" maintenanceGroup="Administrators" inheritedDim="RootAccountDim">
+			
+				<members>
+					<member name="To_Be_Deleted_GLAccts" description="Old GL Acct Members To Be Deleted" displayMemberGroup="Everyone">
+                        <properties>
+                            <property name="AccountType" value="Flow" />
+                            <property name="FormulaType" value="" />
+                            <property name="AllowInput" value="true" />
+                            <property name="IsConsolidated" value="conditional" />
+                            <property name="IsIC" value="false" />
+                            <property name="UseAltInputCurrencyInFlow" value="false" />
+                            <property name="PlugAccount" value="" />
+                            <property name="InputViewForAdj" value="" />
+                            <property name="NoDataZeroViewForAdj" value="" />
+                            <property name="NoDataZeroViewForNonAdj" value="" />
+                            <property name="UsedOnEntityDim" value="true" />
+                            <property name="UsedOnConsDim" value="true" />
+                            <property name="EnableFlowAggregation" value="true" />
+                            <property name="EnableOriginAggregation" value="true" />
+                            <property name="EnableICAggregation" value="true" />
+                            <property name="EnableUD1Aggregation" value="true" />
+                            <property name="EnableUD2Aggregation" value="true" />
+                            <property name="EnableUD3Aggregation" value="true" />
+                            <property name="EnableUD4Aggregation" value="true" />
+                            <property name="EnableUD5Aggregation" value="true" />
+                            <property name="EnableUD6Aggregation" value="true" />
+                            <property name="EnableUD7Aggregation" value="true" />
+                            <property name="EnableUD8Aggregation" value="true" />
+                            <property name="FlowConstraint" cubeType="" value="root" />
+                            <property name="ICConstraint" cubeType="" value="root" />
+                            <property name="ICMemberFilter" cubeType="" value="" />
+                            <property name="UD1Constraint" cubeType="" value="root" />
+                            <property name="UD2Constraint" cubeType="" value="root" />
+                            <property name="UD3Constraint" cubeType="" value="root" />
+                            <property name="UD4Constraint" cubeType="" value="root" />
+                            <property name="UD5Constraint" cubeType="" value="root" />
+                            <property name="UD6Constraint" cubeType="" value="root" />
+                            <property name="UD7Constraint" cubeType="" value="root" />
+                            <property name="UD8Constraint" cubeType="" value="root" />
+                            <property name="WorkflowChannel" scenarioType="" value="Standard" />
+                            <property name="InUse" scenarioType="" time="" revertToDefaultScenarioType="false" value="True" />
+                            <property name="Formula" scenarioType="" time="" revertToDefaultScenarioType="false" value="" />
+                            <property name="FormulaForCalcDrillDown" scenarioType="" time="" revertToDefaultScenarioType="false" value="" />
+                            <property name="AdjustmentType" scenarioType="" time="" revertToDefaultScenarioType="false" value="Journals" />
+                            <property name="Text1" scenarioType="" time="" revertToDefaultScenarioType="false" value="" />
+                        </properties>
+                    </member>
+                </members>
+				
+				<relationships>
+					<!-- delete relationship on old parent accounts -->
+					<relationship parent = "1620000000"  child="189030003"  action="Delete" />
+					<relationship parent = "1620000000"  child="189030006"  action="Delete" />
+					<relationship parent = "4567000000"  child="456700005"  action="Delete" />
+					<relationship parent = "5011100000"  child="501140001"  action="Delete" />
+					<relationship parent = "5022100000"  child="502030505"  action="Delete" />
+					<relationship parent = "5022100000"  child="502030575"  action="Delete" />
+					<relationship parent = "5022100000"  child="502030621"  action="Delete" />
+					<relationship parent = "5022100000"  child="502030637"  action="Delete" />
+					<relationship parent = "5022100000"  child="502030736"  action="Delete" />
+					<relationship parent = "5022100000"  child="502030741"  action="Delete" />
+					<relationship parent = "5022100000"  child="502031621"  action="Delete" />
+					<relationship parent = "5022100000"  child="502031637"  action="Delete" />
+					<relationship parent = "5020200000"  child="502021001"  action="Delete" />
+					<relationship parent = "5021100000"  child="502020001"  action="Delete" />
+					<relationship parent = "5021100000"  child="502090005"  action="Delete" />
+					<relationship parent = "5070600000"  child="507060010"  action="Delete" />
+					<relationship parent = "5070600000"  child="507060011"  action="Delete" />
+					<relationship parent = "5070600000"  child="507060012"  action="Delete" />
+					<relationship parent = "5070600000"  child="507060013"  action="Delete" />
+					<relationship parent = "5070600000"  child="507060014"  action="Delete" />
+					<relationship parent = "5070600000"  child="507060015"  action="Delete" />
+					<relationship parent = "5070600000"  child="507060016"  action="Delete" />
+					<relationship parent = "5070600000"  child="507060017"  action="Delete" />
+					<relationship parent = "5030000000"  child="503000001"  action="Delete" />
+					<relationship parent = "5030000000"  child="503000010"  action="Delete" />
+					<relationship parent = "5410000000"  child="541010003"  action="Delete" />
+					<relationship parent = "5410000000"  child="541010736"  action="Delete" />
+					<relationship parent = "5422000000"  child="541011003"  action="Delete" />
+					<relationship parent = "5423000000"  child="541021022"  action="Delete" />
+					<relationship parent = "5400000000"  child="560010003"  action="Delete" />
+					<relationship parent = "5400000000"  child="560010004"  action="Delete" />
+					<relationship parent = "5401300000"  child="555040002"  action="Delete" />
+					<relationship parent = "5107000000"  child="521002002"  action="Delete" />
+					<relationship parent = "5107000000"  child="521002008"  action="Delete" />
+					<relationship parent = "5108000000"  child="521003503"  action="Delete" />
+					<relationship parent = "5108000000"  child="521003504"  action="Delete" />
+					<relationship parent = "5109000000"  child="510900002"  action="Delete" />
+					<relationship parent = "5110000000"  child="521003505"  action="Delete" />
+					<relationship parent = "5110000000"  child="521003506"  action="Delete" />
+					<relationship parent = "5110000000"  child="521003508"  action="Delete" />
+					<relationship parent = "5110000000"  child="521003509"  action="Delete" />
+					<relationship parent = "5110100000"  child="511010003"  action="Delete" />
+					<relationship parent = "5110100000"  child="511010004"  action="Delete" />
+					<relationship parent = "5101000000"  child="520101004"  action="Delete" />
+					<relationship parent = "5101000000"  child="520101005"  action="Delete" />
+					<relationship parent = "5101000000"  child="520101012"  action="Delete" />
+					<relationship parent = "5102000000"  child="520103001"  action="Delete" />
+					<relationship parent = "5102000000"  child="520103501"  action="Delete" />
+					<relationship parent = "5601000000"  child="900000025"  action="Delete" />
+					<relationship parent = "5601100000"  child="900000026"  action="Delete" />
+					<relationship parent = "5601400000"  child="900000084"  action="Delete" />
+					<relationship parent = "5430000000"  child="570120002"  action="Delete" />
+					<relationship parent = "5510100000"  child="900000023"  action="Delete" />
+					<relationship parent = "5510200000"  child="900000074"  action="Delete" />
+					<relationship parent = "5510600000"  child="900000075"  action="Delete" />
+					<relationship parent = "5440000000"  child="544001002"  action="Delete" />
+					<relationship parent = "5610000000"  child="586011013"  action="Delete" />
+					<relationship parent = "5620000000"  child="586021004"  action="Delete" />
+					<relationship parent = "5620000000"  child="900000090"  action="Delete" />
+					<relationship parent = "5620100000"  child="900000091"  action="Delete" />
+					<relationship parent = "5640000000"  child="586041003"  action="Delete" />
+					<relationship parent = "5640000000"  child="900000093"  action="Delete" />
+					<relationship parent = "5404000000"  child="554010737"  action="Delete" />
+					<relationship parent = "5404000000"  child="554010738"  action="Delete" />
+					<relationship parent = "5404000000"  child="900000050"  action="Delete" />
+					<relationship parent = "5401000000"  child="555010806"  action="Delete" />
+					<relationship parent = "5309000000"  child="553010006"  action="Delete" />
+					<relationship parent = "5309000000"  child="553010007"  action="Delete" />
+					<relationship parent = "5309000000"  child="553010009"  action="Delete" />
+					<relationship parent = "5309000000"  child="670020001"  action="Delete" />
+					<relationship parent = "5309000000"  child="900000048"  action="Delete" />
+					<relationship parent = "5308000000"  child="530801012"  action="Delete" />
+					<relationship parent = "5308000000"  child="551090010"  action="Delete" />
+					<relationship parent = "5701000000"  child="591010004"  action="Delete" />
+					<relationship parent = "5708000000"  child="596010003"  action="Delete" />
+					<relationship parent = "5608000000"  child="584010003"  action="Delete" />
+					<relationship parent = "5600100000"  child="900000024"  action="Delete" />
+					<relationship parent = "5605500000"  child="900000054"  action="Delete" />
+					<relationship parent = "5840000000"  child="670040001"  action="Delete" />
+					<relationship parent = "5840000000"  child="900000063"  action="Delete" />
+					<relationship parent = "5840100000"  child="670040002"  action="Delete" />
+					<relationship parent = "5840100000"  child="900000100"  action="Delete" />
+					<relationship parent = "5310000000"  child="552010003"  action="Delete" />
+					<relationship parent = "5310000000"  child="552010005"  action="Delete" />
+					<relationship parent = "5310000000"  child="552010014"  action="Delete" />
+					<relationship parent = "5310000000"  child="552010017"  action="Delete" />
+					<relationship parent = "5310000000"  child="552010019"  action="Delete" />
+					<relationship parent = "5310000000"  child="552010021"  action="Delete" />
+					<relationship parent = "5310000000"  child="552010023"  action="Delete" />
+					<relationship parent = "5310000000"  child="552010024"  action="Delete" />
+					<relationship parent = "5310000000"  child="552010025"  action="Delete" />
+					<relationship parent = "5310000000"  child="552010027"  action="Delete" />
+					<relationship parent = "5310000000"  child="552010028"  action="Delete" />
+					<relationship parent = "5310000000"  child="552010035"  action="Delete" />
+					<relationship parent = "5310000000"  child="552010036"  action="Delete" />
+					<relationship parent = "5310000000"  child="552010038"  action="Delete" />
+					<relationship parent = "5310000000"  child="597030005"  action="Delete" />
+					<relationship parent = "5310000000"  child="597030006"  action="Delete" />
+					<relationship parent = "5310000000"  child="900000015"  action="Delete" />
+					<relationship parent = "5851100000"  child="900000098"  action="Delete" />
+					<relationship parent = "5851200000"  child="689801001"  action="Delete" />
+					<relationship parent = "5851200000"  child="900000099"  action="Delete" />
+					<relationship parent = "5402000000"  child="556020001"  action="Delete" />
+					<relationship parent = "5402000000"  child="556010001"  action="Delete" />
+					<relationship parent = "5670000000"  child="587010006"  action="Delete" />
+					<relationship parent = "5670000000"  child="587010007"  action="Delete" />
+					<relationship parent = "5670000000"  child="587010008"  action="Delete" />
+					<relationship parent = "5670000000"  child="587010009"  action="Delete" />
+					<relationship parent = "5670000000"  child="587010010"  action="Delete" />
+					<relationship parent = "5709000000"  child="900000060"  action="Delete" />
+					<relationship parent = "5702000000"  child="589010004"  action="Delete" />
+					<relationship parent = "5702000000"  child="589010008"  action="Delete" />
+					<relationship parent = "5702000000"  child="589010009"  action="Delete" />
+					<relationship parent = "5830000000"  child="583001002"  action="Delete" />
+					<relationship parent = "5830000000"  child="583001010"  action="Delete" />
+					<relationship parent = "5830000000"  child="583001012"  action="Delete" />
+					<relationship parent = "5830000000"  child="583001014"  action="Delete" />
+					<relationship parent = "5830000000"  child="591010001"  action="Delete" />
+					<relationship parent = "5830000000"  child="592010500"  action="Delete" />
+					<relationship parent = "5830000000"  child="592010636"  action="Delete" />
+					<relationship parent = "5830000000"  child="670010020"  action="Delete" />
+					<relationship parent = "5830000000"  child="670010203"  action="Delete" />
+					<relationship parent = "5830000000"  child="670019834"  action="Delete" />
+					<relationship parent = "5830000000"  child="699999999"  action="Delete" />
+					<relationship parent = "5830000000"  child="900000000"  action="Delete" />
+					<relationship parent = "5830100000"  child="900000097"  action="Delete" />
+					<relationship parent = "5830400000"  child="670010041"  action="Delete" />
+					<relationship parent = "5820000000"  child="599990002"  action="Delete" />
+					<relationship parent = "5820000000"  child="599990009"  action="Delete" />
+					<relationship parent = "5820000000"  child="599990801"  action="Delete" />
+					<relationship parent = "5820000000"  child="900000045"  action="Delete" />
+					<relationship parent = "5850000000"  child="688501002"  action="Delete" />
+					<relationship parent = "5850000000"  child="900000049"  action="Delete" />
+					<relationship parent = "5851000000"  child="689500006"  action="Delete" />
+					<relationship parent = "5851000000"  child="689500009"  action="Delete" />
+					<relationship parent = "5851000000"  child="689500012"  action="Delete" />
+					<relationship parent = "5851000000"  child="689500017"  action="Delete" />
+					<relationship parent = "5851000000"  child="900000051"  action="Delete" />
+					<relationship parent = "5851000000"  child="900000062"  action="Delete" />
+					<relationship parent = "5851300000"  child="900000052"  action="Delete" />
+					<relationship parent = "5707000000"  child="594010004"  action="Delete" />
+					<relationship parent = "5707000000"  child="900000044"  action="Delete" />
+					<relationship parent = "5240000000"  child="542011202"  action="Delete" />
+					<relationship parent = "5240000000"  child="542011203"  action="Delete" />
+					<relationship parent = "5240000000"  child="542011303"  action="Delete" />
+					<relationship parent = "5240000000"  child="542021106"  action="Delete" />
+					<relationship parent = "5240000000"  child="542021108"  action="Delete" />
+					<relationship parent = "5240100000"  child="542012403"  action="Delete" />
+					<relationship parent = "5240100000"  child="542012406"  action="Delete" />
+					<relationship parent = "5240100000"  child="542012408"  action="Delete" />
+					<relationship parent = "5240100000"  child="542012409"  action="Delete" />
+					<relationship parent = "5240100000"  child="542012410"  action="Delete" />
+					<relationship parent = "5240100000"  child="542021304"  action="Delete" />
+					<relationship parent = "5240100000"  child="542021305"  action="Delete" />
+					<relationship parent = "5240100000"  child="542022203"  action="Delete" />
+					<relationship parent = "5240100000"  child="542022204"  action="Delete" />
+					<relationship parent = "5240100000"  child="542022205"  action="Delete" />
+					<relationship parent = "5240100000"  child="542022206"  action="Delete" />
+					<relationship parent = "5500000000"  child="900000021"  action="Delete" />
+					<relationship parent = "5703000000"  child="593010004"  action="Delete" />
+					<relationship parent = "5703000000"  child="900000043"  action="Delete" />
+					<relationship parent = "5900000000"  child="691010005"  action="Delete" />
+					<relationship parent = "5900000000"  child="691010006"  action="Delete" />
+					<relationship parent = "5900000000"  child="691010007"  action="Delete" />
+					<relationship parent = "5901000000"  child="900000055"  action="Delete" />
+					<relationship parent = "5830700000"  child="670010040"  action="Delete" />
+					
+					<!-- move old accounts to To_Be_Deleted_GLAccts parent account -->
+					<relationship parent="root" child="To_Be_Deleted_GLAccts" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="189030003" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="189030006" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="456700005" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="501140001" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="502030505" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="502030575" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="502030621" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="502030637" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="502030736" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="502030741" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="502031621" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="502031637" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="502021001" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="502020001" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="502090005" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="507060010" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="507060011" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="507060012" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="507060013" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="507060014" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="507060015" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="507060016" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="507060017" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="503000001" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="503000010" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="541010003" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="541010736" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="541011003" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="541021022" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="560010003" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="560010004" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="555040002" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="521002002" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="521002008" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="521003503" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="521003504" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="510900002" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="521003505" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="521003506" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="521003508" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="521003509" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="511010003" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="511010004" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="520101004" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="520101005" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="520101012" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="520103001" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="520103501" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000025" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000026" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000084" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="570120002" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000023" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000074" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000075" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="544001002" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="586011013" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="586021004" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000090" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000091" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="586041003" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000093" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="554010737" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="554010738" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000050" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="555010806" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="553010006" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="553010007" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="553010009" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="670020001" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000048" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="530801012" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="551090010" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="591010004" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="596010003" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="584010003" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000024" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000054" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="670040001" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000063" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="670040002" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000100" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="552010003" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="552010005" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="552010014" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="552010017" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="552010019" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="552010021" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="552010023" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="552010024" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="552010025" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="552010027" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="552010028" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="552010035" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="552010036" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="552010038" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="597030005" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="597030006" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000015" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000098" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="689801001" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000099" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="556020001" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="556010001" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="587010006" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="587010007" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="587010008" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="587010009" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="587010010" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000060" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="589010004" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="589010008" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="589010009" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="583001002" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="583001010" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="583001012" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="583001014" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="591010001" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="592010500" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="592010636" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="670010020" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="670010203" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="670019834" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="699999999" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000000" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000097" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="670010041" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="599990002" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="599990009" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="599990801" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000045" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="688501002" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000049" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="689500006" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="689500009" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="689500012" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="689500017" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000051" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000062" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000052" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="594010004" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000044" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="542011202" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="542011203" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="542011303" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="542021106" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="542021108" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="542012403" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="542012406" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="542012408" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="542012409" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="542012410" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="542021304" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="542021305" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="542022203" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="542022204" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="542022205" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="542022206" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000021" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="593010004" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000043" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="691010005" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="691010006" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="691010007" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="900000055" aggregationWeight="1" />
+					<relationship parent="To_Be_Deleted_GLAccts" child="670010040" aggregationWeight="1" />
+
+                </relationships>
+            </dimension>
+        </dimensions>
+    </metadataRoot>
+</OneStreamXF>
